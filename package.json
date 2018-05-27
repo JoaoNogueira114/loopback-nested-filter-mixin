@@ -1,0 +1,36 @@
+{
+  "name": "loopback-nested-filter-mixin",
+  "version": "0.0.0-development",
+  "description": "A workaround mixin to enable a behavior similar to a nested query filter",
+  "main": "nested-filter.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive ./test",
+    "test-debug": "./node_modules/mocha/bin/mocha --inspect-brk --recursive ./test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "loopback": "^3.19.0",
+    "mocha": "^5.1.1",
+    "supertest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoaoNogueira114/loopback-nested-filter-mixin.git"
+  },
+  "keywords": [
+    "loopback",
+    "include",
+    "nested",
+    "query",
+    "filter",
+    "mixin"
+  ],
+  "author": "João Nogueira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoaoNogueira114/loopback-nested-filter-mixin/issues"
+  },
+  "homepage": "https://github.com/JoaoNogueira114/loopback-nested-filter-mixin#readme"
+}
