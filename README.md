@@ -58,7 +58,7 @@ Add the mixin attribute to the definition of all Models you want to use it with.
     }
   },
   "mixins": {
-    "NestedSearch": null
+    "NestedFilter": null
   }
 }
 ```
@@ -77,7 +77,8 @@ GET /patients?filter={"include":[{
       }
     }]
   }
-  }]
+  }],
+  "excludeIfEmpty": true  
 }
 ```
 
