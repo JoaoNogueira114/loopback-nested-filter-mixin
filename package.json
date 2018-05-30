@@ -1,6 +1,6 @@
 {
   "name": "loopback-nested-filter-mixin",
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "description": "A workaround mixin to enable a behavior similar to a nested query filter",
   "main": "nested-filter.js",
   "scripts": {
