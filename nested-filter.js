@@ -88,7 +88,7 @@ module.exports = function(Model, options) {
       if (originalFilter.skip) {
         results.remove(0, originalFilter.skip - 1);
       }
-      if (originalFilter.limit && originalFilter.length > originalFilter.limit) {
+      if (originalFilter.limit && results.length > originalFilter.limit) {
         results.remove(originalFilter.limit, results.length - 1);
       }
 
