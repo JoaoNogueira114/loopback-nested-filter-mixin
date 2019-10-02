@@ -114,7 +114,7 @@ function afterRemoteFind(ctx, options, next) {
     if (originalFilter.skip) {
       results.remove(0, originalFilter.skip - 1);
     }
-    if (originalFilter.limit && results.length > originalFilter.limit) {
+    if (results.remove && originalFilter.limit && results.length > originalFilter.limit) {
       results.remove(originalFilter.limit, results.length - 1);
     }
 
